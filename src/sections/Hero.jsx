@@ -26,13 +26,16 @@ export default function Hero() {
         </div>
 
         {/* Right Visual Frame */}
-        <div className="w-full max-w-md mx-auto aspect-square bg-gradient-to-tr from-blue-100 to-indigo-100 rounded-2xl border border-blue-200/40 flex items-center justify-center p-8 relative shadow-xs">
+        <div className="w-full max-w-md mx-auto aspect-square bg-linear-to-tr from-blue-100 to-indigo-100 rounded-2xl border border-blue-200/40 flex items-center justify-center p-8 relative shadow-xs">
           <div className="text-center">
             <div className="text-5xl mb-3"></div>
             <div className="font-bold text-gray-800">Ultima Headphones</div>
             <div className="text-sm text-blue-600 font-semibold mt-1">Rs. 8,500</div>
           </div>
         </div>
+
+
+       
 
       </div>
     </section>

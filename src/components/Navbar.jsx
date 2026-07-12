@@ -8,15 +8,13 @@ export default function Navbar() {
         <div className="text-xl font-black tracking-tight text-gray-900">
           Digi<span className="text-blue-600">SHOP</span>
         </div>
-
-        {/* Desktop Links */}
+{/* Desktop Links */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
           <a href="#" className="text-blue-600">Home</a>
-          <a href="#products" className="hover:text-blue-600 transition-colors">Shop All</a>
-          <a href="#" className="hover:text-blue-600 transition-colors">Categories</a>
-          <a href="#" className="hover:text-blue-600 transition-colors">Deals</a>
+          <a href="#services" className="hover:text-blue-600 transition-colors">Services</a>
+          <a href="#about" className="hover:text-blue-600 transition-colors">About Us</a>
+          <a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a>
         </nav>
-
         {/* Icons Area */}
         <div className="flex items-center gap-4 text-gray-700">
           <button className="p-1 hover:text-blue-600 relative">
