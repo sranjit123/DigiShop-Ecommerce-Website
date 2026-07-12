@@ -1,25 +1,29 @@
-import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
+import Services from './sections/Services';
 import Products from './sections/Products';
+import About from './sections/About';
+import Contact from './sections/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white flex flex-col antialiased">
-      {/* 1. Global Navigation Bar */}
+    <div className="min-h-screen bg-[#040C18] text-white flex flex-col antialiased">
       <Navbar />
       
-      {/* 2. Main Page Sections Content Workspace */}
       <main className="flex-grow">
         <Hero />
+        <Services />
         <Products />
+        <About />
+        <Contact />
       </main>
 
-      {/* 3. Global Footer Component */}
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+

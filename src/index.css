@@ -1,5 +1,9 @@
 @import "tailwindcss";
-/* @theme {
-  --font-sans: "Inter", system-ui, sans-serif;
-  --font-serif: "Playfair Display", Georgia, serif;
-} */
+
+@layer base {
+  body {
+    background-color: #040c18; /* The classic signature GPT-3 dark theme base color */
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+}
