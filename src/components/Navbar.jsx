@@ -1,20 +1,42 @@
-
+import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-xs">
+    <header className="sticky top-0 z-50 bg-[#EBEBFF] border-b border-gray-100 shadow-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand Logo */}
         <div className="text-xl font-black tracking-tight text-gray-900">
           Digi<span className="text-blue-600">SHOP</span>
         </div>
 {/* Desktop Links */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
-          <a href="#" className="text-blue-600">Home</a>
-          <a href="#services" className="hover:text-blue-600 transition-colors">Services</a>
-          <a href="#about" className="hover:text-blue-600 transition-colors">About Us</a>
-          <a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a>
-        </nav>
+      <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+  <Link to="/" className="hover:text-blue-600">
+    Home
+  </Link>
+
+  <ScrollLink
+    to="services"
+    smooth={true}
+    duration={500}
+    className="cursor-pointer hover:text-blue-600"
+  >
+    Services
+  </ScrollLink>
+
+  <ScrollLink
+    to="about"
+    smooth={true}
+    duration={500}
+    className="cursor-pointer hover:text-blue-600"
+  >
+    About Us
+  </ScrollLink>
+
+  <Link to="/contact" className="hover:text-blue-600">
+    Contact
+  </Link>
+</nav>
         {/* Icons Area */}
         <div className="flex items-center gap-4 text-gray-700">
           <button className="p-1 hover:text-blue-600 relative">
