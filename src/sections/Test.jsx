@@ -22,6 +22,8 @@ export default function Test(){
   placeholder="Click here..."
 />
         </div>
+        <p>The conference will be held in <del>Paris</del> <ins datetime="2026-07-13">London</ins>.</p>
+
     
     </>
  );
