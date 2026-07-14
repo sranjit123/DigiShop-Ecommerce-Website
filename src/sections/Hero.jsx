@@ -1,7 +1,7 @@
 
 export default function Hero() {
   return (
-    <section className="bg-slate-50 py-16 lg:py-24 overflow-hidden">
+    <section className="bg-[#043f39] py-16 lg:py-30 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
         {/* Left Content */}
@@ -9,10 +9,10 @@ export default function Hero() {
           <span className="inline-flex self-center lg:self-start px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">
             🔥 Limited Time: Free Shipping Included
           </span>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 tracking-tight leading-none">
-            Upgrade Your <span className="text-blue-600">Everyday Gear.</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-none">
+            Upgrade Your <span className="text-white">Everyday Gear.</span>
           </h1>
-          <p className="text-lg text-gray-600 max-w-lg mx-auto lg:mx-0">
+          <p className="text-lg text-white-600 max-w-lg mx-auto lg:mx-0">
             Discover our premium curated collective of minimalist lifestyle essentials. Engineered beautifully for style, durability, and daily performance.
           </p>
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-2">
